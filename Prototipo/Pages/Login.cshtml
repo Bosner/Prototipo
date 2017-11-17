@@ -1,10 +1,4 @@
-﻿@page
-@model Prototipo.Pages.LoginModel
-@{
-    Layout = null;
-}
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -20,5 +14,9 @@
         <li><a href="#"></a></li>
         <input class="button" type="submit" value="Iniciar Sesion" />
     </form>
+
+    <div class="container body-content">
+        @RenderBody()
+    </div>
 </body>
 </html>
